@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300&display=swap');
+
+body {
+  background: #3d3d3d;
+  height: 97vh;
+  width: 99%;
+  font-family: 'Quicksand';
+  box-sizing: border-box;
+}
+
+:root {
+  --whiteColor: #fff;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  text-align: center;
+  line-height: 10px;
+  margin-bottom: 55px;
+}
+
+.logo h1 {
+  font-weight: 300;
+  font-size: 35px;
+  color: #cdcdcd;
+}
+
+.logo small {
+  font-size: 0.875em;
+  color: #dbdbdb;
+}
+
+#app {
+  width: 632px;
+  height: 372px;
+}
+
+.box {
+  margin: 0 auto;
+  background-color: #e9eaee;
+  width: 544px;
+  height: 360px;
+  border-color: var(--whiteColor);
+  border-width: 1px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.inside_box {
+  background-color: var(--whiteColor);
+  width: 452px;
+  height: 260px;
+  border: 1px solid #a3a3a3;
+  padding: 5px;
+  font-size: 14px;
+}
+
+.input {
+  display: flex;
+  justify-content: space-between;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+  width: 30px;
+  padding: 2px;
+  font-size: 16px;
+  background-color: #393939;
+  border: 1px solid #2f2f2f;
+  text-align: center;
+  color: var(--whiteColor);
+}
+input:focus {
+  outline: none;
+  border-color: #fff;
+}
+
+.favicon_freepik {
+  position: absolute;
+  bottom: 0;
+  font-size: 0.75em;
+  color: #fff;
+}
+.favicon_freepik a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  line-height: 16px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.inactive {
+  display: none;
+}
+
+.active {
+  display: block;
+}
